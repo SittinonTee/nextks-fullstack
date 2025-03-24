@@ -1,4 +1,72 @@
-:root {
+body{
+  padding: 0;
+  margin: 0;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+}
+.Contrainer{
+  /* display: flex; */
+  margin: 20px;
+  padding: 20px;
+  border: 3px solid black;
+  border-radius: 60px;
+  text-align: center;
+
+}
+
+.imgid{
+  /* display: flex; */
+  width: 80%;
+}
+.Head{
+  color: darkorange;
+  font-size: 20px;
+}
+
+
+.HomepageContrainer{
+  text-align: center;
+}
+
+
+
+.Header{
+  background-color:cornflowerblue;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+
+/* .HeadBox{
+  gap: 20px;
+} */
+
+.Box{
+  border: 3px solid black;
+  margin: 10px;
+  border-radius: 60px;
+  padding: 10px;
+}
+.Homeimg{
+  width: 80%;
+
+}
+
+h1{
+
+}
+
+
+
+
+
+/* :root {
   --background: #ffffff;
   --foreground: #171717;
 }
@@ -39,4 +107,4 @@ a {
   html {
     color-scheme: dark;
   }
-}
+} */
